@@ -26,6 +26,8 @@ var d = document.createElement('div');
 d.classList="col-12 col-sm-6 col-lg-3";
 d.innerHTML= '<h3 class="h5  text-primary mb-2">'+dataUs.cities[i]+'</h3>';
 locationCard.lastChild.append(d)
+
+console.log("the end of the project")
 }
 //locationCard.lastChild.innerHTML="Olga"
 // console.log(locationCard.lastChild)
